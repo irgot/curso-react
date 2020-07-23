@@ -1,5 +1,5 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.css'
+
 import { Button } from 'reactstrap';
 import Primeiro from "./basicos/Primeiro";
 import ComParametro from "./basicos/ComParametro";
@@ -10,6 +10,7 @@ import "./App.css"
 import Familia from "./basicos/Familia";
 import FamiliaMembro from './basicos/FamiliaMembro'
 import ListaAlunos from './repeticao/ListaAlunos'
+import TabelaProduto from './repeticao/TabelaProduto'
 
 export default props => {
     return (
@@ -17,6 +18,9 @@ export default props => {
             
             <h1>Fundamentos React</h1>
             <div className="Cards">
+                <Card titulo="#08 - Repetição Desafio" color="#5d9987">
+                    <TabelaProduto></TabelaProduto>
+                </Card>
                 <Card titulo="07# - Repetição" color='#ff4c65'>
                     <ListaAlunos></ListaAlunos>
                 </Card>

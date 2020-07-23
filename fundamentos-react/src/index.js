@@ -1,6 +1,5 @@
 
-import 'bootstrap/dist/css/bootstrap.css'
-import { Button } from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
 import ReactDOM from "react-dom";
 import React from "react";
