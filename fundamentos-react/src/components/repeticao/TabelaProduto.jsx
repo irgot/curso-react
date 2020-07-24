@@ -23,6 +23,7 @@ export default props => {
         <div>
             <Table striped bordered hover>
                 <thead>
+                    <tr>
                     <th>
                         #
                     </th>
@@ -32,6 +33,7 @@ export default props => {
                     <th>
                         Preço
                     </th>
+                    </tr>
                 </thead>
                 <tbody>
                     {tabelaProdutos}

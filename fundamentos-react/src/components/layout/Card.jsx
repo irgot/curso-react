@@ -1,5 +1,5 @@
 import './Card.css'
-import React, { Children } from 'react'
+import React from 'react'
 export default props => {
     const estilo ={
         backgroundColor:props.color || "#f90",

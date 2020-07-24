@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Button } from 'reactstrap';
+// import { Button } from 'reactstrap';
 import Primeiro from "./basicos/Primeiro";
 import ComParametro from "./basicos/ComParametro";
 import Fragmento from "./basicos/Fragmento";
@@ -11,13 +11,16 @@ import Familia from "./basicos/Familia";
 import FamiliaMembro from './basicos/FamiliaMembro'
 import ListaAlunos from './repeticao/ListaAlunos'
 import TabelaProduto from './repeticao/TabelaProduto'
-
+import ParOuImpar from './condicional/ParOuImpar'
 export default props => {
     return (
         <div id="app" className="App">
             
             <h1>Fundamentos React</h1>
             <div className="Cards">
+                <Card titulo='#09 - Renderização condicional' color='#770099'>
+                    <ParOuImpar numero={20}></ParOuImpar>
+                </Card>
                 <Card titulo="#08 - Repetição Desafio" color="#5d9987">
                     <TabelaProduto></TabelaProduto>
                 </Card>
