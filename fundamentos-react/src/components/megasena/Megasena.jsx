@@ -9,7 +9,7 @@ export default props => {
             const novoNum=gerarNumeroNaoContido(1,60,nums)
             return [ ...nums,novoNum]
         }, [])
-
+        
         return numeros
 
         // setNumerosGerados(Array(+num).fill().map(
