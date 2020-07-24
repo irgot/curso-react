@@ -12,12 +12,38 @@ import FamiliaMembro from './basicos/FamiliaMembro'
 import ListaAlunos from './repeticao/ListaAlunos'
 import TabelaProduto from './repeticao/TabelaProduto'
 import ParOuImpar from './condicional/ParOuImpar'
+import UsuarioInfo from './condicional/UsuarioInfo'
+import DiretaPai from './comunicacao/DiretaPai'
+import IndiretaPai from './comunicacao/IndiretaPai'
+import Inputi from './formulario/Input'
+import Contador from './contador/Contador'
+import Megasena from './megasena/Megasena'
 export default props => {
     return (
         <div id="app" className="App">
             
             <h1>Fundamentos React</h1>
+
             <div className="Cards">
+                <Card titulo='#14 - Megasena' color='#006633'>                    
+                    <Megasena></Megasena>
+                </Card>
+                <Card titulo='#13 - Componente Controlado' color='#dd6666'>                    
+                    <Contador numeroInicial={10}></Contador>
+                </Card>
+                <Card titulo='#13 - Componente Controlado' color='#dd6666'>                    
+                    <Inputi></Inputi>
+                </Card>
+                <Card titulo='#12 - Comunicação Indireta' color='#dd6666'>                    
+                    <IndiretaPai></IndiretaPai>
+                </Card>
+                <Card titulo='#11 - Comunicação Direta' color='#dd0066'>
+                    <DiretaPai></DiretaPai>                    
+                </Card>
+                <Card titulo='#10 - Condicional 2' color='#dddd00'>
+                    <UsuarioInfo usuario={{nome:'Igor Souza'}}></UsuarioInfo>
+                    <UsuarioInfo usuario={{email:'Igor Souza'}}></UsuarioInfo>
+                </Card>
                 <Card titulo='#09 - Renderização condicional' color='#770099'>
                     <ParOuImpar numero={20}></ParOuImpar>
                 </Card>
