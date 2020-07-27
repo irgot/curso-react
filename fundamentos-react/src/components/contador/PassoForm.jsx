@@ -5,7 +5,6 @@ export default props => {
     return(
         <div>
             <FormControl
-            value={undefined}
             placeholder=""
             aria-label="Username"
             aria-describedby="basic-addon1"
