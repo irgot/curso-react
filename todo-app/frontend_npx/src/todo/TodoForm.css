@@ -1,0 +1,22 @@
+.todoForm {
+    display:grid;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+.todoForm > div {    
+    
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.todoInput{
+    background-color: rgba(255, 255, 0, 0.8);
+    grid-column: span 2;
+}
+.todoButtons{    
+    
+}
